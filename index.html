@@ -1,7 +1,8 @@
 <html>
-<header>
+<head>
     <title>CHESS GAME</title>
-</header>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body id='body' onload='refresh_board(0,0,0);' style="background-image:url(icon/wood.jpg);background-size: cover;margin:0;">
     <div id="player_indicator" class='player_indicator'></div><!-- Player indicator white move or black move-->
     <div class='interface'>
@@ -20,80 +21,7 @@
     </div>
 </body>
 <style>
-    .player_indicator_white {
-        background-color: white;
-        color: black;
-        text-align: center;
-        width: 100%;
-    }
 
-    .player_indicator_black {
-        background-color: black;
-        color: white;
-        text-align: center;
-        width: 100%;
-    }
-
-    .square {
-        width: 12.3%;
-        height: 12.4%;
-        background-color: #b58863;
-    }
-
-    .board {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        justify-content: between;
-        flex-wrap: wrap;
-        max-width: 900px;
-        max-height: 900px;
-
-    }
-
-    .mouvement_record {
-        width: 19%;
-        border: solid 1px black;
-
-    }
-
-    .interface {
-       
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 95%;
-    }
-
-    .white_move_record {
-        color: black;
-        background-color: white;
-        text-align: center;
-    }
-
-    .black_move_record {
-        color: white;
-        background-color: black;
-        text-align: center;
-    }
-    .out_pieces{
-        padding: 10;
-        width:110   px;
-        height:100%;
-    }
-    .out_pieces_piece{
-        margin:2;
-        max-width:50px;
-        max-height:50px;
-    }
-    .out_pieces_black{
-        height:50%;
-    }
-    .out_pieces_white{
-        height:49%;
-    
-    }
 </style>
 <script src='js/chess.js'>
 </script>
