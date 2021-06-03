@@ -1,4 +1,4 @@
-# Chess
+# Chess , no need to tell me about my language -_-
 A basic chess game using javascript
 it s a strategy game , 2 player , turn , eat the king to win
                 in deep :
